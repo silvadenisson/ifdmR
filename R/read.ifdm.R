@@ -15,7 +15,7 @@
 #'
 read.ifdm <- function(arquivo, linha = F, nota = NULL){
 
-  base <- read_excel(arquivo)
+  base <- readxl::read_excel(arquivo)
 
   for(i in 1:ncol(base)){
     if(!is.na(base[1, i])){
@@ -33,11 +33,11 @@ read.ifdm <- function(arquivo, linha = F, nota = NULL){
     if(!is.null(nota)){
       if(linha == T){
       if(nota == T){
-        base <- melt(base, id = c(1:4), measure = seq(5, 21, 2))
+        base <- data.table::melt(base, id = c(1:4), measure = seq(5, 21, 2))
         base$variable <- gsub("Nota_", "", base$variable)
         names(base)[5:6] <- c("Ano", "Nota")
       }else{
-        base <- melt(base, id = c(1:4), measure = seq(6, 22, 2))
+        base <- data.table::melt(base, id = c(1:4), measure = seq(6, 22, 2))
         base$variable <- gsub("Ranking_", "", base$variable)
         names(base)[5:6] <- c("Ano", "Ranking")
       }
