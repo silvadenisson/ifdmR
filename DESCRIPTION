@@ -9,6 +9,7 @@ Description: oferece um conjunto de funcoes para fazer donwload e ler
 License: GPL (>= 2)
 Depends: R (>= 3.1.2)
 Encoding: UTF-8
+LazyData: TRUE
 Imports: readxl,
     data.table (>= 1.9.8)
 BugReports: https://github.com/silvadenisson/ifdmR/issues
