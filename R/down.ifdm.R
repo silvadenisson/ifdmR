@@ -1,7 +1,7 @@
 #' down.ifdm
 #' Faz o download dos indicadores do Indice Firjan de Desenvolvimento Municipal (ifdm)
 #' O resuldo eh um arquivo em xls no diretorio de trabalho
-#' a serie disponivel eh de 2003 a 2013, eh um arquivo único
+#' a serie disponivel eh de 2003 a 2013, eh um arquivo unico
 #' @param indicador pode receber um dos quatro valores
 #' Geral - indice geral do idfm
 #' Educ - indicador de educacao
