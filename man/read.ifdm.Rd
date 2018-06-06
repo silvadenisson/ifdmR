@@ -2,8 +2,7 @@
 % Please edit documentation in R/read.ifdm.R
 \name{read.ifdm}
 \alias{read.ifdm}
-\title{read.ifdm Faz a leitura dos arquivos (em xls)indicadores do Indice Firjan de Desenvolvimento Municipal (ifdm)
-O resuldo eh um data.frame}
+\title{read.ifdm}
 \usage{
 read.ifdm(arquivo, linha = F, nota = NULL)
 }
@@ -18,9 +17,7 @@ para esse paremetro o paremtro linha tem ser TRUE.}
 }
 \description{
 read.ifdm
-Faz o retorna um data.frame dos indicadores do Indice Firjan de Desenvolvimento Municipal (ifdm)
-O resuldo eh um arquivo em xls no diretorio de trabalho
-a serie disponivel eh de 2003 a 2013, eh um arquivo único
+retorna um data.frame dos indicadores do Indice Firjan de Desenvolvimento Municipal (ifdm)
 }
 \examples{
 \dontrun{
