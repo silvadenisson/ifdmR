@@ -8,9 +8,9 @@ Description: oferece um conjunto de funcoes para fazer donwload e ler
     os arquivos do indice firjan de desenvolvimento municipal
 License: GPL (>= 2)
 Depends: R (>= 3.1.2)
-Encoding: UTF-8
-LazyData: TRUE
 Imports: readxl,
     data.table (>= 1.9.8)
+Encoding: UTF-8
+LazyData: TRUE
 BugReports: https://github.com/silvadenisson/ifdmR/issues
 RoxygenNote: 6.0.1
