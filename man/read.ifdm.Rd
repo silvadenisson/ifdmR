@@ -7,7 +7,7 @@
 read.ifdm(arquivo, linha = F, nota = NULL)
 }
 \arguments{
-\item{arquivo}{pode receber o endereco do arquivo}
+\item{arquivo}{recebe o endereco do arquivo em xls}
 
 \item{linha}{se FALSE (padrao) retorna um data.frame com os indicadores e ranking por ano em colunas,
 se TRUE retorna um data.frame com os indicadores ou ranking por ano em linhas (observacao)}
