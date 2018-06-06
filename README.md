@@ -3,7 +3,7 @@ ifdmR
 
 `ifdmR` oferece funções para fazer o download e ler os indicadores do Indíce Firjan de Desenvolvimento Municipal (IFDM), http://www.firjan.com.br/ifdm/
 
-### Installation
+### Instalatação
 
 `ifdmR` pode ser instaldor pelo [GitHub](https://github.com/). para isso:
 
