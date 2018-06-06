@@ -2,10 +2,7 @@
 % Please edit documentation in R/down.ifdm.R
 \name{down.ifdm}
 \alias{down.ifdm}
-\title{down.ifdm
-Faz o download dos indicadores do Indice Firjan de Desenvolvimento Municipal (ifdm)
-O resuldo eh um arquivo em xls no diretorio de trabalho
-a serie disponivel eh de 2003 a 2013, eh um arquivo único}
+\title{down.ifdm}
 \usage{
 down.ifdm(indicador = "Geral")
 }
