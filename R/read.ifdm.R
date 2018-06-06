@@ -1,7 +1,6 @@
 #' read.ifdm
-#' Faz o retorna um data.frame dos indicadores do Indice Firjan de Desenvolvimento Municipal (ifdm)
-#' O resuldo eh um arquivo em xls no diretorio de trabalho
-#' a serie disponivel eh de 2003 a 2013, eh um arquivo único
+#' Faz a leitura dos arquivos (em xls)indicadores do Indice Firjan de Desenvolvimento Municipal (ifdm)
+#' O resuldo eh um data.frame
 #' @param arquivo pode receber o endereco do arquivo
 #' @param linha se FALSE (padrao) retorna um data.frame com os indicadores e ranking por ano em colunas,
 #' se TRUE retorna um data.frame com os indicadores ou ranking por ano em linhas (observacao)
