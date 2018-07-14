@@ -16,22 +16,22 @@
 down.ifdm <- function(indicador = "Geral"){
   if(indicador %in% c("Geral", "Educ", "Empre", "Saud")){
     if(indicador == "Geral"){
-      download.file("http://www.firjan.com.br/data/files/A2/83/66/3B/143615101BF66415F8A809C2/Evolução%20do%20IFDM%20Geral%20-%202005%20a%202013.xls", "Geral_ifdm.xls")
+      download.file("http://www.firjan.com.br/data/files/11/04/E5/97/F1B8461049FF6646A8A809C2/Evolu__o%20do%20IFDM%20Geral%20-%202005%20a%202016.xlsx", "Geral_ifdm.xls")
       cat("Download terminado, arquivo salvo como: 'Geral_ifdm.xls'")
     }
 
     if(indicador == "Educ"){
-      download.file("http://www.firjan.com.br/data/files/71/12/EB/20/E33615101BF66415F8A809C2/Evolução%20do%20IFDM%20Educação%20-%202005%20a%202013.xls", "Educ_ifdm.xls")
+      download.file("http://www.firjan.com.br/data/files/5B/F3/48/87/F1B8461049FF6646A8A809C2/Evolu__o%20do%20IFDM%20Educa__o%20-%202005%20a%202016.xlsx", "Educ_ifdm.xls")
       cat("Download terminado, arquivo salvo como: 'Educ_ifdm.xls'")
     }
 
     if(indicador == "Empre"){
-      download.file("http://www.firjan.com.br/data/files/71/12/EB/20/E33615101BF66415F8A809C2/Evolução%20do%20IFDM%20Educação%20-%202005%20a%202013.xls", "Empre_ifdm.xls")
+      download.file("http://www.firjan.com.br/data/files/2E/F3/1F/87/F1B8461049FF6646A8A809C2/Evolu__o%20do%20IFDM%20EmpregoRenda%20-%202005%20a%202016.xlsx", "Empre_ifdm.xls")
       cat("Download terminado, arquivo salvo como: 'Empre_ifdm.xls'")
     }
 
     if(indicador == "Saud"){
-      download.file("http://www.firjan.com.br/data/files/71/12/EB/20/E33615101BF66415F8A809C2/Evolução%20do%20IFDM%20Educação%20-%202005%20a%202013.xls", "Saud_ifdm.xls")
+      download.file("http://www.firjan.com.br/data/files/04/04/CC/97/F1B8461049FF6646A8A809C2/Evolu__o%20do%20IFDM%20Sa_de%20-%202005%20a%202016.xlsx", "Saud_ifdm.xls")
       cat("Download terminado, arquivo salvo como: 'Saud_ifdm.xls'")
     }
 
