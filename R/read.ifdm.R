@@ -14,7 +14,7 @@
 #'
 read.ifdm <- function(arquivo, linha = F, nota = NULL){
 
-  base <- readxl::read_excel(arquivo)
+  base <- readxl::read_xlsx(arquivo)
 
   for(i in 1:ncol(base)){
     if(!is.na(base[1, i])){
